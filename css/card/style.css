@@ -1,0 +1,13 @@
+.card{
+    background: rgba(211, 211, 211, 0.587);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 30px;
+
+    border: 10px solid rgb(52, 52, 57);
+    border-radius: 20px;
+
+
+}
