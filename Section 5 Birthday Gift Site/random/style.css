@@ -7,6 +7,12 @@
     align-items:  center;  
    /* align item is used for x axis 
    while justify content is used for y axis */
+   flex-direction: column; /* flex-direction is by default row*/
+   /* after flex-direction into column than the 
+   justify-content and align-items also chanmge their 
+   functions of x axis and y axis as now
+   x-axis is controlled by justify-content and
+   y axis by align-items */
 }
    
 

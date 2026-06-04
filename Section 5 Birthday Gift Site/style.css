@@ -9,9 +9,9 @@ body {
     font-family: 'Happy Monkey', cursive;
     background: #a2d2ff;
     color: white;
-    display: flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(lightskyblue, pink);
 }
 
 h1, h2, h3, h4{
@@ -24,7 +24,70 @@ h1, h2, h3, h4{
     border: 6px solid #EF80C9;
 }
 
-h3, h4{
-    background-color: #EF80C9;
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
+
+#age{
+    background-color: #EF80C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#date{
+    background-color: #EF80C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+.gift-section{
+    margin-top: 50px;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.gift-img{
+    margin: 0 auto;
+    background-image: url(gift.png);
+    width: 400px;
+    border: 7px solid white;
+    border-radius: 10px;
+    height: 400px;
+    background-size: cover;
+}
+.gift-img:hover{
+    background-image: url("happy1.gif");
+}
+
+.div2{
+    margin-top: 100px;
+}
+
+.gift2-img{
+    margin: 0 auto;
+    background-image: url(gift.png);
+    width: 400px;
+    border: 7px solid white;
+    border-radius: 10px;
+    height: 400px;
+    background-size: cover;
+}
+.gift2-img:hover{
+    background-image: url("minion.gif");
+}
+
+.footer{
+    margin-top: 200px;
+    color: white;
+    margin: 0 auto;
+}
+
+#link{
+    color: white;
+}
+
